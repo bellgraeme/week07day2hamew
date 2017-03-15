@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    tools:context="com.codeclan.counter.WordCountActivity">
+
+    <EditText
+        android:hint="@string/question"
+        android:id="@+id/word_count_text"
+        android:layout_width="117dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_margin="50dp"
+        android:layout_weight="0.05"
+        android:textSize="24dp"
+        tools:layout_editor_absoluteY="120dp"
+        tools:layout_editor_absoluteX="240dp" />
+
+    <Button
+        android:id="@+id/count_button"
+        android:text="@string/count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:layout_gravity="center"
+        android:onClick="onCountClicked"
+        tools:layout_editor_absoluteY="470dp"
+        tools:layout_editor_absoluteX="240dp" />
+
+
+</LinearLayout>
